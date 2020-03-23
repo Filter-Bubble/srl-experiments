@@ -13,7 +13,7 @@ evaluate in two ways:
 Maybe not necessary
 
 # System 2: vua-srl
-The code can be found in [this repository](https://github.com/newsreader/vua-srl-nl). It takes NAF as input, using features from the term, constituent and dependency layers (as produced by Alpino). It includes a trained model, but it's unclear on what data this model is trained.
+The code can be found in [this repository](https://github.com/sarnoult/vua-srl-nl) (note that this an updated fork to use python 3). It takes NAF as input, using features from the term, constituent and dependency layers (as produced by Alpino). It includes a trained model, but it's unclear on what data this model is trained.
 
 As the system outputs NAF, we need to convert it to conll in order to evaluate.
 
